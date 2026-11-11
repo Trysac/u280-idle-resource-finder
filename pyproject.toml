@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+idle-resource-finder = "idle_resource_finder.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u280-idle-resource-finder"
 Source = "https://github.com/Trysac/u280-idle-resource-finder"
